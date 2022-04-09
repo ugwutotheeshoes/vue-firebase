@@ -2,12 +2,13 @@ const app = Vue.createApp({
     // template: '<h3>I am a paragraph, aren\'t I?</h3>'
     data() {
         return {
-            title: 'Element Club',
-            p1: 'P1: I am a paragraph, aren\'t I?',
-            p2: 'P2: Yes you are',
-            p3: 'P1: If I am a paragraph, then what are you?',
-            p4: 'P2: Another paragraph I guess',
-            p5: 10,
+            title: 'Book Club',
+            url: "https://www.google.com",
+            books: [
+                {title: 'Rich Dad, Poor Dad', author: 'Robert Kiyosaki'},
+                {title: 'Runner Runner', author: 'Matt Skolfgaard'},
+                {title: 'Way of the wind', author: 'John Wolfgang'}
+            ],
             show: true
         }
     },
